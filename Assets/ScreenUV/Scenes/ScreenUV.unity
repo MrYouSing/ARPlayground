@@ -206,17 +206,17 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 7607992514339005173}
     m_Modifications:
     - target: {fileID: 1372579114716369159, guid: 360797d8adf0b444f87edb0c5b074984,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+      objectReference: {fileID: 4300000, guid: 4e14e046e738cf649976a03be6052f56, type: 2}
     - target: {fileID: 5894087757293921831, guid: 360797d8adf0b444f87edb0c5b074984,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5894087757293921831, guid: 360797d8adf0b444f87edb0c5b074984,
         type: 3}
@@ -233,11 +233,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.25
       objectReference: {fileID: 0}
-    - target: {fileID: 5894087757293921831, guid: 360797d8adf0b444f87edb0c5b074984,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 7643637178035065320, guid: 360797d8adf0b444f87edb0c5b074984,
         type: 3}
       propertyPath: source
@@ -245,6 +240,12 @@ PrefabInstance:
       objectReference: {fileID: 4300000, guid: f7bd00d690e2bd04e953d9479848e130, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 360797d8adf0b444f87edb0c5b074984, type: 3}
+--- !u!1 &2022963606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3584093601143423361, guid: 360797d8adf0b444f87edb0c5b074984,
+    type: 3}
+  m_PrefabInstance: {fileID: 2022963605}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2131665485
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,7 +353,58 @@ PrefabInstance:
     - target: {fileID: 7607992515937222199, guid: 03ad69580778d0545b61b9cc9109f7e5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8573365942584276985, guid: 03ad69580778d0545b61b9cc9109f7e5,
+        type: 3}
+      propertyPath: m_PlanePrefab
+      value: 
+      objectReference: {fileID: 4776765576899091622, guid: 635f0c5c56e955042b05a01c20415c3b,
+        type: 3}
+    - target: {fileID: 8643847820469868123, guid: 03ad69580778d0545b61b9cc9109f7e5,
+        type: 3}
+      propertyPath: m_PointCloudPrefab
+      value: 
+      objectReference: {fileID: 5706843430230825157, guid: 2a91e1f16d3bef84eb6c25e4c6a63fdb,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03ad69580778d0545b61b9cc9109f7e5, type: 3}
+--- !u!4 &7607992514339005173 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4021922151037873010, guid: 03ad69580778d0545b61b9cc9109f7e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 7607992514339005172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7607992514339005174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7607992515664493861, guid: 03ad69580778d0545b61b9cc9109f7e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 7607992514339005172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7607992514339005175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7607992514339005174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446fc7fee4cf2ad4daa02222a84869c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlacedPrefab: {fileID: 2022963606}
+  m_MaxNumberOfObjectsToPlace: 5
+--- !u!114 &7607992514339005176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7607992514339005174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastPrefab: {fileID: 0}

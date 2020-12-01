@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.XR;
 using UnityEngine.XR.ARFoundation;
 
 namespace YouSingStudio.AR {
@@ -9,7 +10,7 @@ namespace YouSingStudio.AR {
 		public ARCameraManager arManager;
 		public ARCameraBackground arBackground;
 		public Camera cameraBackground;
-		public ARFoundationBackgroundRenderer rendererBackground;
+		public ARBackgroundRenderer rendererBackground;
 		public Camera cameraFinal;
 		public RenderTexture renderTexture;
 		public Material material;
@@ -55,7 +56,7 @@ namespace YouSingStudio.AR {
 					cameraBackground.projectionMatrix=eventArgs.projectionMatrix.Value;
 				}
 				if(rendererBackground==null) {
-					rendererBackground=new ARFoundationBackgroundRenderer();
+					rendererBackground=new ARBackgroundRenderer();
 					rendererBackground.mode=ARRenderMode.MaterialAsBackground;
 					rendererBackground.backgroundMaterial=arBackground.material;
 					rendererBackground.camera=cameraBackground;
