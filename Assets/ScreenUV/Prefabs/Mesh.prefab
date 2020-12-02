@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 5894087757293921831}
   - component: {fileID: 1372579114716369159}
   - component: {fileID: 1097602845976605351}
-  - component: {fileID: 7643637178035065320}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e43c487028ae3ad459db6e58e2084045, type: 2}
+  - {fileID: 2100000, guid: f95f2858e06861943aeabbc1841ae3bf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,21 +79,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &7643637178035065320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584093601143423361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dab444c3e61360b4d93a177fb9a166f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  root: {fileID: 5894087757293921831}
-  mesh: {fileID: 0}
-  meshFilter: {fileID: 0}
-  skinnedMeshRenderer: {fileID: 0}
-  camera: {fileID: 0}
-  source: {fileID: 0}

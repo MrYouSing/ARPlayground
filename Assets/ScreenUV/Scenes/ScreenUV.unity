@@ -350,6 +350,11 @@ PrefabInstance:
       propertyPath: cameraBackground
       value: 
       objectReference: {fileID: 388900099}
+    - target: {fileID: 3438916788408585342, guid: 03ad69580778d0545b61b9cc9109f7e5,
+        type: 3}
+      propertyPath: materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f95f2858e06861943aeabbc1841ae3bf, type: 2}
     - target: {fileID: 7607992515937222199, guid: 03ad69580778d0545b61b9cc9109f7e5,
         type: 3}
       propertyPath: m_RootOrder
@@ -390,7 +395,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7607992514339005174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 446fc7fee4cf2ad4daa02222a84869c4, type: 3}
+  m_Script: {fileID: 11500000, guid: 44f39d610c01cab4383288cf6053846b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_PlacedPrefab: {fileID: 2022963606}
