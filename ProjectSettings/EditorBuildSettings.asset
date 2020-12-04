@@ -5,10 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/ScreenUV/Scenes/ScreenUV.unity
     guid: aff2d2f009160854cb48c49d65eea244
+  - enabled: 1
+    path: Assets/UnityRoyale/Scenes/Main.unity
+    guid: 0a1e416a844617040953dcff9cd8cd04
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: b80213cb7f3e745d7a8bff5a4ad04b9a,
+      type: 2}
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: 7c2fece38d1bb5741bbed30e1b10bfc7,
       type: 2}
     com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 93707d05930414f4b868cd784b6d3686,

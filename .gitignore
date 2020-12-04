@@ -61,3 +61,5 @@ crashlytics-build.properties
 # 
 Assets/ThirdParty
 Assets/ThirdParty.meta
+/Assets/AddressableAssetsData
+/Assets/AddressableAssetsData.meta
