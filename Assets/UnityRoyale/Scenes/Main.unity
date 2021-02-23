@@ -36022,7 +36022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   root: {fileID: 894034927}
   aiDeck: {fileID: 11400000, guid: 8a5c0422680584f748caecc799c2ca4a, type: 2}
-  opponentLoopTime: 2.5
+  opponentLoopTime: 5
 --- !u!1 &1576110583 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7607992515937222198, guid: 03ad69580778d0545b61b9cc9109f7e5,

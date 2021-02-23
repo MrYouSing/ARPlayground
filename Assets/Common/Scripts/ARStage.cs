@@ -97,6 +97,7 @@ namespace YouSingStudio.AR {
 						Hook hook=prefab.GetComponent<Hook>();
 						if(hook==null) {hook=prefab.AddComponent<Hook>();}
 						//
+						hook.stage=this;
 						hook.parent=go.transform;
 						hook.isPlane=isPlane;
 					}

@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ScreenUV/Scenes/ScreenUV.unity
     guid: aff2d2f009160854cb48c49d65eea244
-  - enabled: 1
+  - enabled: 0
     path: Assets/UnityRoyale/Scenes/Main.unity
     guid: 0a1e416a844617040953dcff9cd8cd04
+  - enabled: 0
+    path: Assets/HandTracking/HandTracking.unity
+    guid: 8ba565a86f55ebf4d8189671f224e64c
+  - enabled: 1
+    path: Assets/DateAR/DateAR.unity
+    guid: e30c6b5f30f863e48b13078d21f6f5ec
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: b80213cb7f3e745d7a8bff5a4ad04b9a,
       type: 2}
